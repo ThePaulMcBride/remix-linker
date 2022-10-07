@@ -1,1 +1,14 @@
-{}
+{
+  "rewrites": [
+    {
+      "source": "/:path*",
+      "has": [
+        {
+          "type": "host",
+          "value": "test.linker.paulmcbride.com"
+        }
+      ],
+      "destination": "/page/:path*"
+    }
+  ]
+}
