@@ -1,5 +1,5 @@
 {
-  "regions": ["lhr"],
+  "trailingSlash": false,
   "rewrites": [
     {
       "source": "/:path*",
@@ -10,12 +10,6 @@
         }
       ],
       "destination": "/page/:path*"
-    }
-  ],
-  "redirects": [
-    {
-      "source": "/(.*).linker.paulmcbride.com",
-      "destination": "linker.paulmcbride.com/$1"
     }
   ]
 }
