@@ -7,7 +7,7 @@ import {
 import { Response } from "@remix-run/node";
 import { Form, Link, useActionData } from "@remix-run/react";
 import { AuthorizationError } from "remix-auth";
-import { authenticator } from "~/services/auth.server";
+import { authenticator } from "_app/services/auth.server";
 
 export const loader: LoaderFunction = async ({ request }) => {
   return await authenticator.isAuthenticated(request, {

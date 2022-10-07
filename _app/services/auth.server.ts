@@ -1,9 +1,9 @@
 import { Authenticator } from "remix-auth";
-import { sessionStorage } from "~/services/session.server";
+import { sessionStorage } from "_app/services/session.server";
 import { FormStrategy } from "remix-auth-form";
 import { compare } from "bcryptjs";
 import invariant from "tiny-invariant";
-import { db } from "~/db.server";
+import { db } from "_app/db.server";
 import { createUser } from "./user.server";
 
 type User = {

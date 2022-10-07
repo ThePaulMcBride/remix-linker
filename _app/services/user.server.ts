@@ -1,6 +1,6 @@
 import { hash } from "bcryptjs";
-import { db } from "~/db.server";
-import { stripe } from "~/services/stripe.server";
+import { db } from "_app/db.server";
+import { stripe } from "_app/services/stripe.server";
 
 export const createUser = async (email: string, password: string) => {
   const hashedPassword = await hash(password, 10);

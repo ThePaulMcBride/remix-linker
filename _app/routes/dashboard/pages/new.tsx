@@ -6,8 +6,8 @@ import {
 import { ActionFunction, MetaFunction, redirect } from "@remix-run/node";
 import { Form, Link } from "@remix-run/react";
 import invariant from "tiny-invariant";
-import { db } from "~/db.server";
-import { authenticator } from "~/services/auth.server";
+import { db } from "_app/db.server";
+import { authenticator } from "_app/services/auth.server";
 
 export const meta: MetaFunction = () => {
   return {

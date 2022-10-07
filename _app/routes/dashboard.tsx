@@ -3,7 +3,7 @@ import { Fragment } from "react";
 import { Disclosure, Menu, Transition } from "@headlessui/react";
 import { Bars3Icon, BellIcon, XMarkIcon } from "@heroicons/react/24/outline";
 import type { LoaderFunction } from "@remix-run/node";
-import { authenticator } from "~/services/auth.server";
+import { authenticator } from "_app/services/auth.server";
 
 const navigation = [
   { name: "Dashboard", href: "/dashboard" },
