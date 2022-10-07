@@ -9,7 +9,7 @@
           "value": "test.linker.paulmcbride.com"
         }
       ],
-      "destination": "/page*"
+      "destination": "/page"
     }
   ]
 }
