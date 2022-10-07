@@ -2,14 +2,14 @@
   "trailingSlash": false,
   "rewrites": [
     {
-      "source": "/:path*",
+      "source": "/test",
       "has": [
         {
           "type": "host",
           "value": "test.linker.paulmcbride.com"
         }
       ],
-      "destination": "/page/:path*"
+      "destination": "/page*"
     }
   ]
 }
