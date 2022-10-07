@@ -2013,8 +2013,38 @@ function Login() {
   }, this);
 }
 
+// app/routes/page.tsx
+var page_exports = {};
+__export(page_exports, {
+  default: () => Index2,
+  loader: () => loader4
+});
+var import_react13 = require("@remix-run/react"), import_jsx_dev_runtime = require("react/jsx-dev-runtime"), loader4 = ({ request }) => ({
+  domain: request.headers.get("host") || "localhost:3000"
+});
+function Index2() {
+  let { domain } = (0, import_react13.useLoaderData)();
+  return /* @__PURE__ */ (0, import_jsx_dev_runtime.jsxDEV)("div", {
+    style: { fontFamily: "system-ui, sans-serif", lineHeight: "1.4" },
+    children: /* @__PURE__ */ (0, import_jsx_dev_runtime.jsxDEV)("h1", {
+      children: [
+        "Welcome to Remix: ",
+        domain
+      ]
+    }, void 0, !0, {
+      fileName: "app/routes/page.tsx",
+      lineNumber: 17,
+      columnNumber: 7
+    }, this)
+  }, void 0, !1, {
+    fileName: "app/routes/page.tsx",
+    lineNumber: 16,
+    columnNumber: 5
+  }, this);
+}
+
 // server-assets-manifest:@remix-run/dev/assets-manifest
-var assets_manifest_default = { version: "af362baf", entry: { module: "/build/entry.client-IF4DG3GT.js", imports: ["/build/_shared/chunk-MRPLIX47.js", "/build/_shared/chunk-4IYZMDEG.js"] }, routes: { root: { id: "root", parentId: void 0, path: "", index: void 0, caseSensitive: void 0, module: "/build/root-QLHM6YRB.js", imports: void 0, hasAction: !1, hasLoader: !1, hasCatchBoundary: !1, hasErrorBoundary: !1 }, "routes/api/logout": { id: "routes/api/logout", parentId: "root", path: "api/logout", index: void 0, caseSensitive: void 0, module: "/build/routes/api/logout-A72S5NME.js", imports: void 0, hasAction: !0, hasLoader: !1, hasCatchBoundary: !1, hasErrorBoundary: !1 }, "routes/dashboard": { id: "routes/dashboard", parentId: "root", path: "dashboard", index: void 0, caseSensitive: void 0, module: "/build/routes/dashboard-GPXI2MVI.js", imports: ["/build/_shared/chunk-WZRO4ZZR.js", "/build/_shared/chunk-RSAJXPXI.js"], hasAction: !1, hasLoader: !0, hasCatchBoundary: !1, hasErrorBoundary: !1 }, "routes/dashboard/index": { id: "routes/dashboard/index", parentId: "routes/dashboard", path: void 0, index: !0, caseSensitive: void 0, module: "/build/routes/dashboard/index-IX7DBLKS.js", imports: void 0, hasAction: !1, hasLoader: !1, hasCatchBoundary: !1, hasErrorBoundary: !1 }, "routes/dashboard/pages/index": { id: "routes/dashboard/pages/index", parentId: "routes/dashboard", path: "pages", index: !0, caseSensitive: void 0, module: "/build/routes/dashboard/pages/index-AU47VV6O.js", imports: void 0, hasAction: !1, hasLoader: !1, hasCatchBoundary: !1, hasErrorBoundary: !1 }, "routes/dashboard/pages/new": { id: "routes/dashboard/pages/new", parentId: "routes/dashboard", path: "pages/new", index: void 0, caseSensitive: void 0, module: "/build/routes/dashboard/pages/new-3HIC2QOW.js", imports: void 0, hasAction: !0, hasLoader: !1, hasCatchBoundary: !1, hasErrorBoundary: !1 }, "routes/dashboard/settings": { id: "routes/dashboard/settings", parentId: "routes/dashboard", path: "settings", index: void 0, caseSensitive: void 0, module: "/build/routes/dashboard/settings-GSJ4UDH7.js", imports: void 0, hasAction: !1, hasLoader: !1, hasCatchBoundary: !1, hasErrorBoundary: !1 }, "routes/index": { id: "routes/index", parentId: "root", path: void 0, index: !0, caseSensitive: void 0, module: "/build/routes/index-S77WBK7M.js", imports: void 0, hasAction: !1, hasLoader: !1, hasCatchBoundary: !1, hasErrorBoundary: !1 }, "routes/login": { id: "routes/login", parentId: "root", path: "login", index: void 0, caseSensitive: void 0, module: "/build/routes/login-WQ3MQMUN.js", imports: ["/build/_shared/chunk-WZRO4ZZR.js"], hasAction: !0, hasLoader: !0, hasCatchBoundary: !1, hasErrorBoundary: !1 }, "routes/sign-up": { id: "routes/sign-up", parentId: "root", path: "sign-up", index: void 0, caseSensitive: void 0, module: "/build/routes/sign-up-SCX6O667.js", imports: ["/build/_shared/chunk-WZRO4ZZR.js"], hasAction: !0, hasLoader: !0, hasCatchBoundary: !1, hasErrorBoundary: !1 } }, url: "/build/manifest-AF362BAF.js" };
+var assets_manifest_default = { version: "c383456f", entry: { module: "/build/entry.client-IF4DG3GT.js", imports: ["/build/_shared/chunk-MRPLIX47.js", "/build/_shared/chunk-4IYZMDEG.js"] }, routes: { root: { id: "root", parentId: void 0, path: "", index: void 0, caseSensitive: void 0, module: "/build/root-QLHM6YRB.js", imports: void 0, hasAction: !1, hasLoader: !1, hasCatchBoundary: !1, hasErrorBoundary: !1 }, "routes/api/logout": { id: "routes/api/logout", parentId: "root", path: "api/logout", index: void 0, caseSensitive: void 0, module: "/build/routes/api/logout-A72S5NME.js", imports: void 0, hasAction: !0, hasLoader: !1, hasCatchBoundary: !1, hasErrorBoundary: !1 }, "routes/dashboard": { id: "routes/dashboard", parentId: "root", path: "dashboard", index: void 0, caseSensitive: void 0, module: "/build/routes/dashboard-GPXI2MVI.js", imports: ["/build/_shared/chunk-WZRO4ZZR.js", "/build/_shared/chunk-RSAJXPXI.js"], hasAction: !1, hasLoader: !0, hasCatchBoundary: !1, hasErrorBoundary: !1 }, "routes/dashboard/index": { id: "routes/dashboard/index", parentId: "routes/dashboard", path: void 0, index: !0, caseSensitive: void 0, module: "/build/routes/dashboard/index-IX7DBLKS.js", imports: void 0, hasAction: !1, hasLoader: !1, hasCatchBoundary: !1, hasErrorBoundary: !1 }, "routes/dashboard/pages/index": { id: "routes/dashboard/pages/index", parentId: "routes/dashboard", path: "pages", index: !0, caseSensitive: void 0, module: "/build/routes/dashboard/pages/index-AU47VV6O.js", imports: void 0, hasAction: !1, hasLoader: !1, hasCatchBoundary: !1, hasErrorBoundary: !1 }, "routes/dashboard/pages/new": { id: "routes/dashboard/pages/new", parentId: "routes/dashboard", path: "pages/new", index: void 0, caseSensitive: void 0, module: "/build/routes/dashboard/pages/new-3HIC2QOW.js", imports: void 0, hasAction: !0, hasLoader: !1, hasCatchBoundary: !1, hasErrorBoundary: !1 }, "routes/dashboard/settings": { id: "routes/dashboard/settings", parentId: "routes/dashboard", path: "settings", index: void 0, caseSensitive: void 0, module: "/build/routes/dashboard/settings-GSJ4UDH7.js", imports: void 0, hasAction: !1, hasLoader: !1, hasCatchBoundary: !1, hasErrorBoundary: !1 }, "routes/index": { id: "routes/index", parentId: "root", path: void 0, index: !0, caseSensitive: void 0, module: "/build/routes/index-S77WBK7M.js", imports: void 0, hasAction: !1, hasLoader: !1, hasCatchBoundary: !1, hasErrorBoundary: !1 }, "routes/login": { id: "routes/login", parentId: "root", path: "login", index: void 0, caseSensitive: void 0, module: "/build/routes/login-WQ3MQMUN.js", imports: ["/build/_shared/chunk-WZRO4ZZR.js"], hasAction: !0, hasLoader: !0, hasCatchBoundary: !1, hasErrorBoundary: !1 }, "routes/page": { id: "routes/page", parentId: "root", path: "page", index: void 0, caseSensitive: void 0, module: "/build/routes/page-MHHKKQPS.js", imports: void 0, hasAction: !1, hasLoader: !0, hasCatchBoundary: !1, hasErrorBoundary: !1 }, "routes/sign-up": { id: "routes/sign-up", parentId: "root", path: "sign-up", index: void 0, caseSensitive: void 0, module: "/build/routes/sign-up-SCX6O667.js", imports: ["/build/_shared/chunk-WZRO4ZZR.js"], hasAction: !0, hasLoader: !0, hasCatchBoundary: !1, hasErrorBoundary: !1 } }, url: "/build/manifest-C383456F.js" };
 
 // server-entry-module:@remix-run/dev/server-build
 var assetsBuildDirectory = "public/build", publicPath = "/build/", entry = { module: entry_server_exports }, routes = {
@@ -2097,6 +2127,14 @@ var assetsBuildDirectory = "public/build", publicPath = "/build/", entry = { mod
     index: void 0,
     caseSensitive: void 0,
     module: login_exports
+  },
+  "routes/page": {
+    id: "routes/page",
+    parentId: "root",
+    path: "page",
+    index: void 0,
+    caseSensitive: void 0,
+    module: page_exports
   }
 };
 // Annotate the CommonJS export names for ESM import in node:

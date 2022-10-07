@@ -10,5 +10,11 @@
       ],
       "destination": "/page/:path*"
     }
+  ],
+  "redirects": [
+    {
+      "source": "/(.*).linker.paulmcbride.com",
+      "destination": "linker.paulmcbride.com/$1"
+    }
   ]
 }
